@@ -44,3 +44,9 @@ export const TimeLineData = [
   { year: 2020, text: 'Shared my projects with the world', },
   { year: 2021, text: 'Started my own platform', },
 ];
+export const data = [
+  { number: 15, text: 'Projects'},
+  { number: 1, text: 'Year of coding', },
+  { number: 50, text: 'Github contributions', },
+  { number: 3, text: 'Languages', }
+]

@@ -10,9 +10,9 @@ const Timeline = () => {
    const [activeItem, setActiveItem] = useState(0);
    const carouselRef = useRef();
 
-  // const scroll = (node, left) => {
-  //   return node.scrollTo({ left, behavior: 'smooth' });
-  // }
+   const scroll = (node, left) => {
+     return node.scrollTo({ left, behavior: 'smooth' });
+   }
 
    const handleClick = (e, i) => {
      e.preventDefault();
@@ -24,13 +24,13 @@ const Timeline = () => {
      }
    }
 
-  // const handleScroll = () => {
-  //   if (carouselRef.current) {
-  //     const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+   const handleScroll = () => {
+     if (carouselRef.current) {
+       const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
 
-  //     setActiveItem(index);
-  //   }
-  // }
+      setActiveItem(index);
+     }
+   }
 
   // // snap back to beginning of scroll when window is resized
   // // avoids a bug where content is covered up if coming from smaller screen
@@ -48,7 +48,7 @@ const Timeline = () => {
     <SectionText>
       how did I start learning, where I want to go with my career
     </SectionText>
-    <CarouselContainer ref={carouselRef}>
+    <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
       <>  
       {TimeLineData.map((item,index)=>(
         <CarouselMobileScrollNode key={index } final={index=== TOTAL_CAROUSEL_COUNT-1}>
@@ -98,9 +98,9 @@ const Timeline = () => {
       ))}
       </>
     </CarouselContainer>
-    <CarouselButton>
+    <CarouselButtons>
       {TimeLineData.map((item,index)=>(
-        <CarouselButton
+        <CarouselButtons
         key={index}
         index={index}
         active={activeItem}
@@ -108,9 +108,10 @@ const Timeline = () => {
         type="button"
         >
         <CarouselButtonDot active ={activeItem}/>
-        </CarouselButton>
+        </CarouselButtons>
       ))}
-    </CarouselButton>
+    </CarouselButtons>
+    <SectionDivider/>
     </Section>
   );
 };
