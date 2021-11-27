@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
       I describe myself as someone who's persistent, a quick learner and loves solving problems with simple and scalable solutions.
       </SectionText>
-      <Button onclick={()=> window.location="https://google.com"}>Learn More</Button>
+      <Link href="https://github.com/Pacman-1" ><Button >Learn More</Button></Link>
     </LeftSection>
   </Section>
 );

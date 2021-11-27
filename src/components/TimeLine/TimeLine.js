@@ -98,9 +98,9 @@ const Timeline = () => {
       ))}
       </>
     </CarouselContainer>
-    <CarouselButtons>
+    <CarouselButton>
       {TimeLineData.map((item,index)=>(
-        <CarouselButtons
+        <CarouselButton
         key={index}
         index={index}
         active={activeItem}
@@ -108,9 +108,9 @@ const Timeline = () => {
         type="button"
         >
         <CarouselButtonDot active ={activeItem}/>
-        </CarouselButtons>
+        </CarouselButton>
       ))}
-    </CarouselButtons>
+    </CarouselButton>
     <SectionDivider/>
     </Section>
   );

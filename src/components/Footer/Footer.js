@@ -19,7 +19,7 @@ const Footer = () => {
       </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
-    <CompanyContainer> <Slogan>Learning one project at a time</Slogan></CompanyContainer>
+    <CompanyContainer> <Slogan>Growing one project at a time</Slogan></CompanyContainer>
         <SocialContainer>
         <SocialIcons href="https://github.com/Pacman-1">
             <AiFillGithub size="3rem"/>
