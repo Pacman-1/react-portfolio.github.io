@@ -31,7 +31,7 @@ export const projects = [
     title: 'Contact Manager',
     description: "Made with React and JavaScript. This is a simple contact manager app. Add a name and an email address and it will be saved in local storage until cleared.",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript', 'Firebase'],
+    tags: ['React', 'JavaScript'],
     source: 'https://google.com',
     visit: 'https://github.com/Pacman-1/contact-app-github.io',
     id: 3,
@@ -42,7 +42,7 @@ export const TimeLineData = [
   { year: 2020, text: 'Started my journey', },
   { year: 2021, text: 'Finished a number of projects and portfolio', },
   { year: 2021, text: 'Continue learning and Begin applying to positions', },
-  { year: 2022, text: 'Land a junior developer role', },
+  { year: 2022, text: 'Land a junior developer position', },
 ];
 export const data = [
   { number: 15, text: 'Projects'},
