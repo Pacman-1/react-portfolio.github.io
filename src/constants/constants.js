@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Weather App',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    description: "Using React, Javascript and CSS this application was created to get weather conditions based on the city and state you enter.",
       image: '/images/1.png',
       tags: ['JavaScript','React',],
     source: 'https://google.com',
@@ -9,40 +9,40 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Contact Manager',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
+    title: 'Kairuku',
+    description:"Created using HTML and CSS, kairku was created to be a cloud hosting service that offers fast efficient solutions.",
+    image: '/images/4.png',
+    tags: ['HTML', 'CSS'],
     source: 'https://google.com',
-    visit: 'https://github.com/Pacman-1/contact-app-github.io',
+    visit: 'https://github.com/Pacman-1/kairuku.github.io',
     id: 1,
   },
   {
-    title: 'E-Commerce',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+    title: 'Luxurious',
+    description: "Using React and Javascript, Luxurious is meant to provide clients with high quality service with little to no fees through different qualities of cards.   ",
       image: '/images/3.png',
-      tags: ['React', 'WebRTC'],
+      tags: ['React', 'JavaScript'],
     source: 'https://google.com',
     visit: 'https://github.com/Pacman-1/luxurious.github.io',
     id: 2,
   },
+  
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
+    title: 'Contact Manager',
+    description: "Made with React and JavaScript. This is a simple contact manager app. Add a name and an email address and it will be saved in local storage until cleared.",
+    image: '/images/2.png',
+    tags: ['React', 'JavaScript', 'Firebase'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://github.com/Pacman-1/contact-app-github.io',
     id: 3,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2020, text: 'Started my journey', },
+  { year: 2021, text: 'Finished a number of projects and portfolio', },
+  { year: 2021, text: 'Continue learning and Begin applying to positions', },
+  { year: 2022, text: 'Land a junior developer role', },
 ];
 export const data = [
   { number: 15, text: 'Projects'},
