@@ -29,7 +29,7 @@ export const projects = [
   
   {
     title: 'Contact Manager',
-    description: "Made with React and JavaScript. This is a simple contact manager app. Add a name and an email address and it will be saved in local storage until cleared.",
+    description: "Made with React and JavaScript. This is a simple contact management app. Add a name and an email address and it will be saved in local storage until cleared.",
     image: '/images/2.png',
     tags: ['React', 'JavaScript'],
     source: 'https://google.com',
