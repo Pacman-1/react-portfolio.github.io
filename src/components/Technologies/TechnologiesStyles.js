@@ -29,10 +29,8 @@ export const MainImage = styled.img`
 
 export const List = styled.ul`
   list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  margin: 3rem 0;
+  display: flex;
+  justify-content:space-around;
   
   @media ${props => props.theme.breakpoints.lg}{
     margin: 64px 0;
@@ -100,6 +98,7 @@ export const ListParagraph = styled.p`
 export const ListItem = styled.li`
   max-width: 320px;
   display: flex;
+  justify-content:space-between;
   flex-direction: column;
 
 @media ${props => props.theme.breakpoints.md}{

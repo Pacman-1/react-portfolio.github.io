@@ -18,12 +18,12 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Luxurious',
+    title: 'Black Jack',
     description: "Using React and Javascript, Luxurious is meant to provide clients with high quality service with little to no fees through different qualities of cards.   ",
       image: '/images/3.png',
-      tags: ['React', 'JavaScript'],
-    source: 'https://rcluxurious.netlify.app/',
-    visit: 'https://github.com/Pacman-1/luxurious.github.io',
+      tags: ['HTML', 'JavaScript','CSS'],
+    source: 'https://pacman-1.github.io/blackJack.github.io/',
+    visit: 'https://github.com/Pacman-1/blackJack.github.io',
     id: 2,
   },
   
