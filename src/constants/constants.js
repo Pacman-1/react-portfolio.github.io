@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Black Jack',
-    description: "Using React and Javascript, Luxurious is meant to provide clients with high quality service with little to no fees through different qualities of cards.   ",
+    description: "Using HTML, CSS and Javascript, This online blackjack game was created with a simplistic in mind. Making it easy to play.      ",
       image: '/images/3.png',
       tags: ['HTML', 'JavaScript','CSS'],
     source: 'https://pacman-1.github.io/blackJack.github.io/',

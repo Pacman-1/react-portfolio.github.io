@@ -29,7 +29,7 @@ export const MainImage = styled.img`
 
 export const List = styled.ul`
   list-style-type: none;
-  display: flex;
+  display: flex;  
   justify-content:space-around;
   
   @media ${props => props.theme.breakpoints.lg}{
