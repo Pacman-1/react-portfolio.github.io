@@ -47,6 +47,6 @@ export const TimeLineData = [
 export const data = [
   { number: 15, text: 'Projects'},
   { number: 1, text: 'Year of coding', },
-  { number: "100+", text: 'Github contributions', },
+  { number: 100, text: 'Github contributions', },
   { number: 3, text: 'Languages', }
 ]
